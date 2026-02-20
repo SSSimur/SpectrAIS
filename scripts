@@ -1,0 +1,3 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://services.swpc.noaa.gov/json/goes/primary/xrays-7-day.json"></script>
+<script src="https://api.sunrise-sunset.org/json?lat=60.17&amp;lng=24.94&amp;formatted=0"></script>

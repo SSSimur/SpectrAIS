@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Solar Analysis</title>
+ 
+  <link rel="stylesheet" href="style.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<canvas id="stars"></canvas>
+
+<div id="page1" class="panel">
+  <h1>MISSION SETUP</h1>
+
+  <img class="earth"
+  src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg">
+
+  <select id="continent">
+    <option value="">Select Continent</option>
+    <option value="asia">Asia</option>
+    <option value="europe">Europe</option>
+    <option value="africa">Africa</option>
+    <option value="northamerica">North America</option>
+    <option value="southamerica">South America</option>
+    <option value="australia">Australia</option>
+    <option value="antarctica">Antarctica</option>
+  </select>
+
+  <select id="country">
+    <option value="">Select Country</option>
+  </select>
+
+  <button id="startBtn">Run Solar Analysis</button>
+</div>
+
+
+<div id="page2" class="panel" style="display:none;">
+
+  <img class="earth"
+  src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg">
+
+  <h2 id="time"></h2>
+
+  <div class="grid">
+    <div>Flare Class:</div><div id="class"></div>
+    <div>Probability:</div><div id="prob"></div>
+    <div>Aviation Impact:</div><div id="aviation"></div>
+    <div>Power Grid:</div><div id="power"></div>
+    <div>Human Exposure:</div><div id="humans"></div>
+    <div>Electronics:</div><div id="devices"></div>
+  </div>
+
+  <div class="ai">AI Advice: (future integration)</div>
+
+  <button id="backBtn">← Back</button>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
