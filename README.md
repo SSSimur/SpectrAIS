@@ -1,0 +1,2 @@
+# SpectrAIS
+Students project
